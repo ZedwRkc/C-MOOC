@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2025-04-02 06:57:03</datetime>
+  <suite>
+    <title>Test-07-geometry</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:16</fn>
+      <id>test_multi_table</id>
+      <iteration>0</iteration>
+      <duration>0.000107</duration>
+      <description>test_multi_table</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:33</fn>
+      <id>test_draw_triangle</id>
+      <iteration>0</iteration>
+      <duration>0.000082</duration>
+      <description>test_draw_triangle</description>
+      <message>Passed</message>
+    </test>
+    <test result="failure">
+      <path>.</path>
+      <fn>test_source.c:61</fn>
+      <id>test_draw_ball</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>test_draw_ball</description>
+      <message>[Task 1.6] Called draw_ball(3). Your output:&#xA;&#xA;Reference output:&#xA;...*...&#xA;.*****.&#xA;.*****.&#xA;*******&#xA;.*****.&#xA;.*****.&#xA;...*...&#xA;&#xA;Reason: output correct until position: 1, line: 1, but shorter than expected. Next character should be &apos;.&apos;&#xA;&#xA;</message>
+    </test>
+  </suite>
+  <duration>0.001378</duration>
+</testsuites>
